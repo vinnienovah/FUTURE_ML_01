@@ -48,7 +48,7 @@ The notebook follows these steps:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/predict-house-prices.git
+   git clone https://github.com/vinnienovah/predict-house-prices.git
    cd predict-house-prices
 2. Install the required libraries:
    ```bash
