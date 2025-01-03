@@ -43,14 +43,6 @@ The notebook follows these steps:
    - Predictions are made on the test dataset using the trained model.
    - The predictions are saved as a CSV file for further evaluation or submission.
 
-## Requirements
-
-The following Python libraries are required to run the notebook:
-- `pandas`
-- `numpy`
-- `matplotlib`
-- `seaborn`
-- `scikit-learn`
 
 ## How to Run the Notebook
 
@@ -58,3 +50,24 @@ The following Python libraries are required to run the notebook:
    ```bash
    git clone https://github.com/your-username/predict-house-prices.git
    cd predict-house-prices
+2. Install the required libraries:
+   ```bash
+   pip install -r requirements.txt
+
+3. Open the Jupyter Notebook:
+   ```bash
+   jupyter notebook Task_01_Predict_House_Prices.ipynb
+
+4. Follow the steps in the notebook to explore the data, preprocess it, train the model, and make predictions.
+
+## Outputs
+
+- **Validation Metrics:** Mean Squared Error and \( R^2 \)-Score are calculated on the validation set.
+ **Predictions File:** A CSV file (`house_price_predictions.csv`) containing predictions for the test dataset is generated.
+
+## Dataset
+The datasets used in this project are provided by the [Kaggle competition House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques).
+
+
+## Author
+This project was created as part of a machine learning learning initiative. Contributions, suggestions, or feedback are welcome!
